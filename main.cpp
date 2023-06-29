@@ -12,7 +12,6 @@ int main(){
 		while((ind = (int)str.find('a',ind+1)) != -1){
 			nA++;
 		}
-		cout<<str<<"\n ###"<<nA;
 		ind = -1;
 	}
 	cout<<"Число букв -a-: "<<nA<<endl;
