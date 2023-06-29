@@ -7,6 +7,7 @@ int main(){
 	string str;
 	ifstream file;
 	file.open("in.txt");
+	cout<<"Начало программы\n";
 	while(!file.eof()){
 		getline(file,str);
 		while((ind = (int)str.find('a',ind+1)) != -1){
